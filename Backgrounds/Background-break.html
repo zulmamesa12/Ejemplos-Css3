@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#ejemplo1 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+}
+
+#ejemplo2 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+}
+
+#ejemplo3 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+}
+</style>
+</head>
+<body>
+
+<p><strong>Nota:</strong> La propiedad background-clip no es compatible en Internet Explorer 8 y versiones anteriores.</p>
+
+<p>No background-clip (border-box is default):</p>
+<div id="ejemplo1">
+<h2>Computador</h2>
+<p>el cual es una herramienta muy indispensable para un programador</p>
+</div>
+
+<p>background-clip: padding-box:</p>
+<div id="ejemplo2">
+<h2>Lenguages de programacion</h2>
+<p>codigo.</p>
+</div>
+
+<p>background-clip: content-box:</p>
+<div id="ejemplo3">
+<h2>Instructores</h2>
+<p>personas que nos enseñan temas </p>
+</div>
+
+</body>
+</html>
