@@ -1,0 +1,77 @@
+img {
+  background-color: green;
+  height: 180px;
+}
+
+.image {
+  height: 170px;
+  object-fit: none;
+/*  background-color: yellow;*/
+}
+
+.image--center {
+  object-position: 50% 50%;
+}
+
+.image--bottom-right {
+  object-position: 100% 100%;
+}
+
+.image--bottom-left {
+  object-position: 0  100%;
+}
+
+.image--top-left {
+  object-position: 0  0;
+}
+
+.image--up {
+  object-position: 50%  120%;
+}
+
+.image--down {
+  object-position: 50%  -20%;
+}
+
+.image--left {
+  object-position: 120%  50%;
+}
+
+.image--right {
+  object-position: -20%  50%;
+}
+
+.image--background-image {
+  object-position: 140%  90%;
+  background-image: url('http://fillmurray.com/g/50/50');
+}
+
+///////////////////////////////////////
+//////////////////////////////////////
+
+html { 
+  color: #eee; 
+  padding: 30px;
+  font-family: 'Source Code Pro', Monaco;
+  background-color: #333;
+}
+
+.container {
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 0;
+  width: 45%;
+  
+  &:nth-child(2n + 1){
+    margin-right: 0;
+  }
+}
+
+p { font-weight: 600; font-size: 13px; margin-bottom: 10px; margin-top: 0;}
+
+img[class] { width: 100%;}
+
+
+.original-image {
+  margin-bottom: 50px;
+}
