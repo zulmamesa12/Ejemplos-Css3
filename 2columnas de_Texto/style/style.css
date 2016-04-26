@@ -1,0 +1,18 @@
+
+#p{
+    
+   -webkit-column-count: 3;
+    -webkit-column-fill:auto;
+    -webkit-column-gap:100px;
+    -webkit-column-rule:50px dashed green;
+    
+    
+}
+
+
+#op{
+    
+    -webkit-columns:20px 2;
+    
+}
+
