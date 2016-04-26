@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--La propiedad transform aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, inclinación, etc., elementos.-->
+<html>
+<head>
+<style> 
+div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    /* Rotate div */
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+</style>
+</head>
+<body>
+
+<div>HOLA COMO ESTAS</div>
+<br>
+
+<p><b>Nota:</b>Internet Explorer 8 y versiones anteriores no son compatibles con la propiedad transform..</p>
+
+<p><b>Nota:</b>Internet Explorer 9 soporta una alternativa, los -ms-transform propiedad. Las nuevas versiones de IE apoyan la propiedad transform (no se necesita el prefijo ms).</p>
+
+<p><b>Nota:</b> Chrome, Safari y Opera apoya una alternativa, la propiedad -webkit-transform.</p>
+
+</body>
+</html>

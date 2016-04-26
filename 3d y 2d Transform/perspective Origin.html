@@ -1,0 +1,42 @@
+<!DOCTYPE html><!--define el lugar de un elemento 3D ,se basa en las direcciones x y el eje y. Esta propiedad le permite cambiar la posición inferior de elementos 3D.
+-->
+
+When defining the perspective-origin property for an element, it is the CHILD elements that are positioned, NOT the element itself.
+<html>
+<head>
+<style>
+#div1 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    -webkit-perspective: 150px; /* Chrome, Safari, Opera */
+    -webkit-perspective-origin: 10% 10%; /* Chrome, Safari, Opera */
+    perspective: 150px;
+    perspective-origin: 10% 10%;
+}
+
+#div2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    -webkit-transform: rotateX(45deg); /* Chrome, Safari, Opera */
+    transform: rotateX(45deg);
+}
+
+</style>
+</head>
+
+<body>
+
+<p><strong>Note:</strong> La propiedad perspectiva origen no es compatible con Internet Explorer 9 y versiones anteriores.</p>
+
+<div id="div1">
+  <div id="div2">COMO ESTAS</div>
+</div>
+ 
+</body>
+</html>
