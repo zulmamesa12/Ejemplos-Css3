@@ -1,0 +1,23 @@
+/**{font-size:9px ;
+	font-family:Arial}*/
+article:nth-child(2) {
+    background: #ff0000;
+    font-size: 23px;
+}
+article:first-of-type+article{
+	font-family: verdana;
+	color: green;
+	text-align: center;
+	 
+}
+
+p{ font-family: Verdana;color:red;}
+em{color: red}
+
+h4,h5{text-transform:capitalize;color: #000056 }
+.selector{text-transform:capitalize;font-family:Arial;}
+#tipo{font-family:cursive;color: #1D4692}
+article p{text-transform:uppercase;/*pasa todo el parrafo a mayusculas*/ color:#E171E9}
+/*p ~ span {
+  color: #642569;
+}*/

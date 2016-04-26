@@ -1,0 +1,15 @@
+
+
+ul{
+    
+    list-style:circle outside url() ; 
+    
+    
+   /*list-style: circle ;
+   list-style-position: inside;
+   list-style-image: url();*/
+
+
+    
+}
+

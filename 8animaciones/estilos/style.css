@@ -1,0 +1,30 @@
+/*
+	animation-name
+ 	animation-duration
+  	animation-timing-function
+ 	 animation delay
+  	animation iteration-count
+ 	 animation-direction*/
+
+#cuadro{
+
+		width:100px;
+		height:100px;
+		background-color:red;
+
+		position:absolute;
+		left:0px;
+
+		-webkit-animation:cuadro 20s infinite;
+
+
+}
+
+/*Zona de Animacion*/
+ @-webkit-keyframes cuadro{
+
+ 	from{left:0px;}
+ 	to{left:1000px;}
+
+ }
+
